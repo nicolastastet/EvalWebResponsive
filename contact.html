@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tastet's Portfolio</title>
+    <title>All star vote</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/style.css">
 </head>
@@ -13,7 +13,7 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Tastet Nicolas CV</a>
+            <a class="navbar-brand" href="#">ALL STAR VOTE</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -36,18 +36,18 @@
         <div class="container">
             <form>
                 <div class="form-group">
-                    <label for="exampleFormControlInput1">Email address</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    <label for="exampleFormControlInput1">Ton adresse mail</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="ton_mail@example.com">
                 </div>
                 <div class="form-group">
-                    <label for="exampleFormControlTextarea1">Example textarea</label>
+                    <label for="exampleFormControlTextarea1">Ton commentaire</label>
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
                 <div class="form-group">
-                    <label for="age">Quel est ton age ?</label>
+                    <label for="age">Ton age</label>
                     <input type="number" class="form-control">
                 </div>
-                <button type="submit" class="btn btn-dark">Submit</button>
+                <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#mymodal">Submit</button>
             </form>
         </div>
     </main>
@@ -57,18 +57,18 @@
         </div>
 
     </footer>
-    <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal fade" id="mymodal" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title"><a target="_blank">Votre message a bien été envoyé</a></h5>
+                    <h5 class="modal-title" id="mymodal">Ton message a bien été envoyé</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
                 </div>
                 <div class="modal-body">
                     <div>
-                        <p>Merci de ta participation</p>
+                        <p>Merci de ta participation 😉</p>
                     </div>
                 </div>
             </div>
